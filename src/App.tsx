@@ -1,5 +1,7 @@
+import Router from './routes/Router';
+
 const App = () => {
-  return <span>dk</span>;
+  return <Router />;
 };
 
 export default App;
