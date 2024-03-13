@@ -4,10 +4,10 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className="flex w-full justify-center bg-blue-50 bg-cover lg:bg-[url('./bg.webp')] lg:bg-cover">
+    <div className="flex w-full justify-center bg-blue-50 bg-cover lg:bg-[url('/assets/bg.webp')] lg:bg-cover">
       <div className="hidden h-screen w-[500px] flex-col gap-14 py-10 lg:flex">
         <div className="flex items-center gap-[6px]">
-          <img src="./logo.png" className="w-7" />
+          <img src="/assets/logo.png" className="w-7" />
           <span className="text-sm text-blue-500 ">Second-Hand</span>
         </div>
 
