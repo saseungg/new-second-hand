@@ -5,8 +5,13 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <div className="flex w-full justify-center bg-blue-50 bg-cover lg:bg-[url('./bg.webp')] lg:bg-cover">
-      <div className="hidden h-screen w-[500px] lg:block">
-        <div className="pt-32">
+      <div className="hidden h-screen w-[500px] flex-col gap-14 py-10 lg:flex">
+        <div className="flex items-center gap-[6px]">
+          <img src="./logo.png" className="w-7" />
+          <span className="text-sm text-blue-500 ">Second-Hand</span>
+        </div>
+
+        <div>
           <h2 className="text-2xl font-semibold">우리 동네 중고 직거래 마켓</h2>
           <p>동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.</p>
         </div>
